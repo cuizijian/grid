@@ -1,0 +1,46 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+article{
+    margin: auto;
+}
+.title{
+    text-align: center;
+}
+.all {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    justify-items: center;
+    align-items: start;
+}
+.all div{
+    background-color: #999;
+}
+.part1{
+    padding: 50px;
+    grid-column: 1/2;
+}
+.part2{
+    padding: 10px;
+    grid-column: 2/3;
+}
+.part3{
+    padding: 10px;
+    grid-column: 3/4;
+}
+.welcome {
+    margin: 20px 50px 20px 30px;
+    height: 60px;
+    background-color: #999;
+    font-size: 30px;
+    font-family: cursive;
+}
+.welcome p {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
